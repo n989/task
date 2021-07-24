@@ -1,0 +1,78 @@
+.discount {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.discount-inner {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  background-color: #112a48;
+}
+.discount-content-1 {
+  line-height: 15px;
+  /* margin-top: 10%; */
+  margin-bottom: 5%;
+  padding: 4%;
+  background: #ff6347bd;
+}
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+.close-btn:hover {
+  cursor: pointer;
+}
+.discount-content {
+  display: flex;
+  flex-direction: column;
+
+  padding: 9% 0% 10% 0%;
+}
+.content-heading {
+  font-size: 25px;
+  line-height: 13px;
+}
+.discount-content h1 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.discount-content h2 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.code {
+  display: flex;
+  align-items: center;
+  padding: 1% 2% 0% 2%;
+}
+.code h2 {
+  margin-top: 6px;
+  margin-left: 10px;
+}
+.promo p {
+  margin-top: 25px;
+  width: 70%;
+  /* margin: 0; */
+}

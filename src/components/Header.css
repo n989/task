@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  padding: 10px;
+}
+.left {
+  padding-left: 24px;
+  display: flex;
+  flex: 1;
+}
+.right {
+  display: flex;
+  padding-right: 24px;
+}
+.right h1 {
+  margin: 10px;
+}
+.header h1 {
+  font-size: 18px;
+  color: #666;
+  font-weight: 500;
+}
